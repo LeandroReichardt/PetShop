@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between ;
+    background-color: rgb(133, 65, 197);
+    align-items: center;
+}
+
+header nav li{
+    display: inline-flex;
+    font-size: 35px;
+    padding: 5px;
+    font-weight: black;
+}
+
+header h1{
+    color:rgba(0, 0, 0, 0.911);
+    font-size: 50px;
+    padding: 10px;
+    
+}
+
+
+a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 153, 243);
+
+    box-shadow: 7px 7px black;
+
+}
+
+#i {
+    padding-right: 10px;
+
+
+}
+
+
+table, th, td {
+    margin: auto;
+    border: 4px solid black;
+    border-collapse: collapse;
+  }
+
+
