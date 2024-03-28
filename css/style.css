@@ -8,19 +8,20 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between ;
-    background-color: rgb(133, 65, 197);
+    background-color: rgb(86, 28, 36);
     align-items: center;
+    
 }
 
 header nav li{
     display: inline-flex;
     font-size: 35px;
     padding: 5px;
-    font-weight: black;
+    
 }
 
 header h1{
-    color:rgba(0, 0, 0, 0.911);
+    color:rgb(199, 183, 163);
     font-size: 50px;
     padding: 10px;
     
@@ -28,15 +29,17 @@ header h1{
 
 
 a {
-
+    color: rgb(199, 183, 163);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     transition: 0.5s;
+    font-weight: 100;
+    font-size: 40px;
 }
 
 a:hover{
-    color: rgb(0, 0, 0);
-    background-color: rgb(214, 153, 243);
+    color: rgb(199, 183, 163);
+    background-color: rgb(121, 44, 54);
     border-radius: 10px;
     box-shadow: 7px 7px black;
 }
@@ -54,4 +57,6 @@ table, th, td {
     border-collapse: collapse;
   }
 
-
+  body {
+    background-color: rgb(232, 216, 196);
+}
