@@ -13,13 +13,13 @@ justify-content: center;
 }
 
 form div {
-    background: rgb(109, 41, 50);
+    background: rgb(63, 78, 79);
     padding: 20px;
     margin: 20px 20px 40px 40px ;
     border-radius: 10px 10px 60px 60px ;
 }
 
 body {
-    background-color: rgb(232, 216, 196);
+    background-color: rgb(220, 215, 201);
     font-family: Arial, Helvetica, sans-serif;
 }
