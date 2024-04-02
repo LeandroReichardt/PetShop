@@ -8,10 +8,18 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between ;
-    background-color: rgb(86, 28, 36);
+    background-color: rgb(44, 54, 57);
     align-items: center;
     
+    border: 40px solid rgb(162, 123, 92);
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
 }
+
+
 
 header nav li{
     display: inline-flex;
@@ -35,13 +43,16 @@ a {
     transition: 0.5s;
     font-weight: 100;
     font-size: 40px;
+    background-color: rgb(63, 78, 79);
+    border-radius: 10px;
+    padding: 4px;
 }
 
 a:hover{
     color: rgb(199, 183, 163);
-    background-color: rgb(121, 44, 54);
+    background-color: rgb(35, 45, 46);
     border-radius: 10px;
-    box-shadow: 7px 7px black;
+    box-shadow: 5px 5px 1px 1px black;
 }
 
 #i {
@@ -58,5 +69,35 @@ table, th, td {
   }
 
   body {
-    background-color: rgb(232, 216, 196);
+    background-color: rgb(220, 215, 201);
+}
+
+h1, h2, p {
+    margin: 10px;
+
+}
+
+.chatbot{
+    background-color: rgb(44, 54, 57);
+    width: 60px;
+    height: 60px;
+
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.chatbot:hover{
+    background-image: url(imagens/comment-solid.svg);
+    border-radius: 25px;
+}
+
+.chatbot img{
+    width: 50px;
+    height: 50px;
+    margin: 7px;
 }
