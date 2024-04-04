@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+
+
+form {
+display: flex;
+gap: 30px;
+justify-content: center;
+}
+
+form div {
+    background: rgb(63, 78, 79);
+    padding: 20px;
+    margin: 20px 20px 40px 40px ;
+    border-radius: 10px 10px 60px 60px ;
+}
+
+body {
+    background-color: rgb(220, 215, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
