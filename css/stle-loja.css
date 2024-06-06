@@ -1,0 +1,51 @@
+.botaoracao{
+    font-size: 30px;
+}
+
+.cardracao{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    background-color: rgb(184, 176, 156);
+}
+
+.cardracaogato{
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    background-color: rgb(184, 176, 156);
+}
+
+.cardsache{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    background-color: rgb(184, 176, 156);
+}
+
+.cardsachegato{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    background-color: rgb(184, 176, 156);
+}
+
+footer{
+    position: absolute;
+    top: 800px;
+    left: 30px;
+}
+
+.corda{
+    position: absolute;
+    top: 250px;
+    left: 950px;
+    background-color: rgb(184, 176, 156);
+}
+
+.arranhador{
+    position: absolute;
+    top: 510px;
+    left: 950px;   
+    background-color: rgb(184, 176, 156);
+}
